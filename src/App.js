@@ -128,7 +128,7 @@ class App extends Component {
 
         <div>
           <p className="footer-text">Allan Acosta</p> 
-          Tutorial by <a className="footer-text" target="_blank" href="https://etnichols.com/">Evan Nichols</a>
+          Tutorial by <a className="footer-text" target="_blank" href="https://etnichols.com/" >Evan Nichols</a>
         </div>
       </div>
     )
