@@ -93,8 +93,8 @@ class App extends Component {
 
         <ReactCSSTransitionReplace 
           transitionName="cross-fade"
-          transitionEnterTimeout={1500}
-          transitionLeaveTimeout={1500} 
+          transitionEnterTimeout={1000}
+          transitionLeaveTimeout={1000} 
           >
         <QuoteModal
           key={this.state.quote}
@@ -124,6 +124,11 @@ class App extends Component {
             />
           </div>
 
+        </div>
+
+        <div>
+          <p className="footer-text">Allan Acosta</p> 
+          Tutorial by <a className="footer-text" target="_blank" href="https://etnichols.com/">Evan Nichols</a>
         </div>
       </div>
     )

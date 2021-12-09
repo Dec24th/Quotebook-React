@@ -5,16 +5,14 @@
     border-radius: 3px;
     margin: auto;
     width: 95%;
-    height: auto;
+    height: auto; /*auto*/
     background-color: lightslategray;
     box-shadow: 6px 6px #3d68a4;
 }
 
 .quote-text {
-    line-height: 4.5;
+    line-height: 2.5;
     color: whitesmoke;
-    font-variant: small-caps;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .author-text {
     color: whitesmoke;
